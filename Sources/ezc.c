@@ -1,7 +1,6 @@
 
 #include "ezc.h"
 #include "cr.h"
-#include "generated.h"
 
 #include <stdio.h>
 
@@ -36,6 +35,7 @@ int ezc_main(struct cr_plugin* ctx, enum cr_op operation) {
     case CR_STEP:
         g_data.window_begin("Hello", 0, 0, 100, 100);
         g_data.window_end();
+        ezc_run();
         return 0;
     }
 	return 0;
