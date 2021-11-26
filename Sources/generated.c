@@ -1,5 +1,6 @@
 #include "ezc.h"
 
-void ezc_run(){
+void ezc_run(void)
+{
 
 }
