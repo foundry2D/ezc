@@ -7,3 +7,6 @@
 [submodule "Tools/kraffiti"]
 	path = Tools/kraffiti
 	url = https://github.com/Kode/kraffiti_bin.git
+[submodule "cr"]
+	path = cr
+	url = https://github.com/fungos/cr.git
